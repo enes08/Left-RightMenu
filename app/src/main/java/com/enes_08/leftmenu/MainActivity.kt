@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     var fm:FragmentManager?=null
     var tr:FragmentTransaction?=null;
     lateinit var mleftMenu:LeftMenu
+    lateinit var mrightMenu:RightMenu
+
     var ivMenu: ImageView? = null
     var mtoolBar: Toolbar? = null
 
@@ -32,7 +34,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         fm=supportFragmentManager;
-        var mleftMenu= LeftMenu()
+         mleftMenu= LeftMenu()
+        mrightMenu= RightMenu()
+
         mtoolBar = findViewById(R.id.toolBar);
 
 
@@ -47,10 +51,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         tr=fm?.beginTransaction();
 
         tr?.add(R.id.frame,mleftMenu)
+        tr?.add(R.id.frame2,mrightMenu)
+
+
         tr?.commit()
 
 
-        
+
 
     }
 

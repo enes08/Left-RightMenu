@@ -42,6 +42,40 @@
 
     </android.support.design.widget.NavigationView>
 
+
+    <android.support.design.widget.NavigationView
+            android:background="@drawable/shape_gradient_left_menu"
+            android:id="@+id/nav_view_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:fitsSystemWindows="false"
+    >
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <FrameLayout
+                    android:id="@+id/frame2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </android.support.design.widget.NavigationView>
+
+
 </android.support.v4.widget.DrawerLayout>
 
 

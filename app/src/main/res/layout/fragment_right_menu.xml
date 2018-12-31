@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shape_gradient_left_menu">
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:padding="5dp"
+            android:id="@+id/llAnasayfa"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_left_menu_round_row">
+
+        <ImageView
+
+                android:layout_margin="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_home"
+                android:tint="#CD7ACB"
+        />
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ana Sayfa"
+                android:layout_margin="5dp"
+                android:textColor="#CD7ACB"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:gravity="center"
+
+        />
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:padding="5dp"
+            android:id="@+id/llhakkimizda"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_left_menu_round_row">
+
+        <ImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                android:layout_margin="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_info"
+                android:tint="#CD7ACB"
+        />
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Hakkımızda"
+                android:layout_margin="5dp"
+                android:textColor="#CD7ACB"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:gravity="center"
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:id="@+id/llAyarlar"
+            android:background="@drawable/shape_left_menu_round_row">
+
+        <ImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                android:layout_margin="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_settings"
+                android:tint="#CD7ACB"
+        />
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ayarlar"
+                android:layout_margin="5dp"
+                android:textColor="#CD7ACB"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:gravity="center"
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/llCikisYap"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_left_menu_round_row">
+
+        <ImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                android:layout_margin="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_logout"
+                android:tint="#CD7ACB"
+        />
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Çıkış Yap"
+                android:layout_margin="5dp"
+                android:textColor="#CD7ACB"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:gravity="center"
+
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>
